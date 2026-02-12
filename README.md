@@ -1,4 +1,4 @@
-# Network Check v0.3
+# Network Check
 
 ## 介紹
 這個專案提供了一個簡單的網路檢查工具，適合初學者學習如何從腳本到 systemd daemon 建立完整流程。主要功能包括：
