@@ -1,0 +1,18 @@
+# config.example
+# Network Check Service Configuration
+
+# Ping 目標
+PING_TARGET="8.8.8.8"
+
+# 檢查間隔秒數
+CHECK_INTERVAL=30
+
+# =========================
+# Log 檔路徑設定 (泛用範例)
+
+# 專案根目錄 (泛用)
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Log 檔位置 (專案內)
+LOG_FILE="$PROJECT_ROOT/net.log"
+

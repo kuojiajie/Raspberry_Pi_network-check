@@ -1,0 +1,11 @@
+# 忽略日誌檔
+*.log
+
+# 忽略本地設定檔
+config.sh
+
+# 忽略 swap / backup / pid 等臨時檔
+*.swp
+*.bak
+*.pid
+
